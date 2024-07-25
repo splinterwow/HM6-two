@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+  }
+  
+  .filterSection {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filterSection input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .filterSection input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  .filterSection button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .filterSection button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(20% - 20px);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    margin: 10px 0 0 10;
+  }
+  
